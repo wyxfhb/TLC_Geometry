@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-03-05 21:15:14" Creator="andre" Comments="" ID="6627f03aaa52b5a92d71460294093d6f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2026-02-10 20:26:22" Modified_Date="2026-03-06 21:03:10" Creator="andre" Comments="" ID="c61acd83957b6e7091b539d8843d9f2c">
   <Library_General_Settings>
     <Package_File_Name>TLC_Geometry</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\source</Library_Source_Folder>
     <Library_Output_Folder>..\distributions</Library_Output_Folder>
@@ -34,7 +34,7 @@ It is designed to simplify common tasks such as positioning, aligning, centering
       <Copyright>Copyright (c) 2026 Andrea Cadei</Copyright>
       <Packager>Andrea Cadei (andcadev)</Packager>
       <URL>https://thelabviewcorner.com/</URL>
-      <Release_Notes>Remove main library and keep spare VIs.</Release_Notes>
+      <Release_Notes>Remove unnecessary items</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -113,6 +113,9 @@ It is designed to simplify common tasks such as positioning, aligning, centering
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace>__tlc__</Namespace>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>TLC_Geometry.lvproj</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -216,7 +219,7 @@ It is designed to simplify common tasks such as positioning, aligning, centering
         <Path>..\source\TLC_Geometry</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8687FC29435A0D5D809E6B2F5C9E4A25</GUID>
+      <GUID>3ACF09496519C78A523CFAB42FC16D84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -531,7 +534,7 @@ It is designed to simplify common tasks such as positioning, aligning, centering
         <Path>..\source\Misc\getCenter.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41E0343598994112EEF7CD60E4FF9879</GUID>
+      <GUID>006224E14E0A24FAC00D1B22E2D263C1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
